@@ -1,8 +1,9 @@
 :root {
   --light-blue: #a0b5c6;
   --light-green: rgba(196, 282, 168, 0.99);
-  --dark-green: rgba(196, 282, 168, 0.89);
-  --dark-blue: rgba(90, 130, 151, 0.95);
+  --dark-green: rgba(196, 282, 168, 0.99);
+  --dark-blue: rgba(90, 130, 151, 0.99);
+  --transparent-blue: rgba(90, 120, 151, 0.55);
   --background: #dee2e5;
 }
 body {
@@ -19,8 +20,14 @@ body {
   width: 565px;
   margin: auto;
   overflow: hidden;
+  font-family: "Righteous", cursive;
 }
 
+@media screen and (min-width: 465px) {
+  .main {
+    transform: translatey(-110px) scale(0.7);
+  }
+}
 .app {
   background: url("./images/white3.jpg") no-repeat;
   background-position: -25px -60px;
@@ -71,17 +78,18 @@ body {
 }
 
 .header h1 {
-  text-align: center;
+  text-align: left;
+  padding-left: 20px;
   margin-right: 240px;
   color: #f6f7f9;
   font-family: "Righteous", cursive;
 }
 
 .fa-bitcoin {
-  font-size: 40px;
+  font-size: 60px;
   position: absolute;
   color: white;
-  top: 20px;
+  top: 10px;
   left: 480px;
   z-index: 8;
 }
@@ -153,21 +161,22 @@ body {
   content: "";
   position: absolute;
   bottom: -260px;
-
+  z-index: 2;
   border-right: 220px solid transparent;
 
   border-bottom: 220px solid var(--dark-blue);
 }
 
 .main-box-6 {
-  /*content: "";
+  content: "";
   position: absolute;
-  bottom: -246px;
-  right: -20px;
-
+  bottom: -260px;
+  left: -9px;
+  z-index: 0;
   border-left: 220px solid transparent;
+  border-right: 220px solid transparent;
 
-  border-bottom: 220px solid var(--light-blue);*/
+  border-bottom: 220px solid var(--light-blue);
 }
 
 .dollar-input {
@@ -181,19 +190,22 @@ body {
   width: 150px;
   position: absolute;
   transform: rotate(45deg);
-  color: var(--light-blue);
-  top: -140px;
+  color: var(--dark-blue);
+  font-size: 20px;
+  top: -150px;
   left: 64px;
 }
 
 .dollar-input input {
   height: 45px;
   width: 180px;
-  font-size: 40px;
+  font-size: 50px;
+
   background: transparent;
   text-align: center;
   color: var(--light-green);
-  border: 0px solid var(--light-green);
+  border: 0px solid var(--dark-blue);
+  font-family: "Righteous", cursive;
 }
 
 .dollar-input input:focus {
@@ -202,28 +214,31 @@ body {
 
 .dollar-input input::placeholder {
   color: var(--light-green);
+  font-size: 60px;
   text-align: center;
 }
 
 .rate {
   z-index: 11;
   position: absolute;
-  bottom: -110px;
-  font-size: 40px;
-  left: 310px;
+  bottom: -140px;
+  font-size: 50px;
+  left: 290px;
 }
 
 .exchange-rate-label {
   z-index: 5;
   position: absolute;
+  font-size: 20px;
 
   left: 465px;
-  top: 465px;
+  top: 463px;
   transform: rotate(45deg);
-  color: var(--light-blue);
+  color: var(--dark-blue);
 }
 .bitcoin-value-label {
   z-index: 5;
+  font-size: 20px;
   position: absolute;
   left: 450px;
   top: 40px;
@@ -233,10 +248,11 @@ body {
 
 .bitcoin-value {
   z-index: 5;
+  font-size: 40px;
   position: absolute;
   top: 190px;
-  left: 354px;
-  color: var(--light-blue);
+  left: 344px;
+  color: var(--dark-blue);
 }
 
 .footer {
