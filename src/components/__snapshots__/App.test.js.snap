@@ -1,0 +1,680 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="header"
+>
+          <h1>
+                    Cash To Bitcoin
+          </h1>
+          <i
+                    className="fab fa-bitcoin"
+          />
+          <div
+                    className="header-triangle-1"
+          />
+          <div
+                    className="header-triangle-2"
+          />
+</div>,
+        <div
+          className="app"
+>
+          <div
+                    className=" main-box-1"
+          />
+          <DollarInput
+                    dollars=""
+                    handleChange={[Function]}
+          />
+          <Bitcoin
+                    dollars=""
+                    exchangeRate=""
+          />
+          <div
+                    className=" main-box-2"
+          />
+          <div
+                    className=" main-box-3"
+          />
+          <div
+                    className=" main-box-4"
+          />
+          <div
+                    className=" main-box-5"
+          />
+          <div
+                    className=" main-box-6"
+          />
+          <div
+                    className="credits"
+          >
+                    Powered by 
+                    <a
+                              href="http://www.coindesk.com/price"
+                    >
+                              CoinDesk
+                    </a>
+          </div>
+</div>,
+        <div
+          className="footer"
+/>,
+      ],
+      "className": "main",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              Cash To Bitcoin
+</h1>,
+            <i
+              className="fab fa-bitcoin"
+/>,
+            <div
+              className="header-triangle-1"
+/>,
+            <div
+              className="header-triangle-2"
+/>,
+          ],
+          "className": "header",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Cash To Bitcoin",
+            },
+            "ref": null,
+            "rendered": "Cash To Bitcoin",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "fab fa-bitcoin",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "header-triangle-1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "header-triangle-2",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className=" main-box-1"
+/>,
+            <DollarInput
+              dollars=""
+              handleChange={[Function]}
+/>,
+            <Bitcoin
+              dollars=""
+              exchangeRate=""
+/>,
+            <div
+              className=" main-box-2"
+/>,
+            <div
+              className=" main-box-3"
+/>,
+            <div
+              className=" main-box-4"
+/>,
+            <div
+              className=" main-box-5"
+/>,
+            <div
+              className=" main-box-6"
+/>,
+            <div
+              className="credits"
+>
+              Powered by 
+              <a
+                            href="http://www.coindesk.com/price"
+              >
+                            CoinDesk
+              </a>
+</div>,
+          ],
+          "className": "app",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": " main-box-1",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "dollars": "",
+              "handleChange": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "dollars": "",
+              "exchangeRate": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": " main-box-2",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": " main-box-3",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": " main-box-4",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": " main-box-5",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": " main-box-6",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Powered by ",
+                <a
+                  href="http://www.coindesk.com/price"
+>
+                  CoinDesk
+</a>,
+              ],
+              "className": "credits",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Powered by ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "CoinDesk",
+                  "href": "http://www.coindesk.com/price",
+                },
+                "ref": null,
+                "rendered": "CoinDesk",
+                "type": "a",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "footer",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="header"
+>
+            <h1>
+                        Cash To Bitcoin
+            </h1>
+            <i
+                        className="fab fa-bitcoin"
+            />
+            <div
+                        className="header-triangle-1"
+            />
+            <div
+                        className="header-triangle-2"
+            />
+</div>,
+          <div
+            className="app"
+>
+            <div
+                        className=" main-box-1"
+            />
+            <DollarInput
+                        dollars=""
+                        handleChange={[Function]}
+            />
+            <Bitcoin
+                        dollars=""
+                        exchangeRate=""
+            />
+            <div
+                        className=" main-box-2"
+            />
+            <div
+                        className=" main-box-3"
+            />
+            <div
+                        className=" main-box-4"
+            />
+            <div
+                        className=" main-box-5"
+            />
+            <div
+                        className=" main-box-6"
+            />
+            <div
+                        className="credits"
+            >
+                        Powered by 
+                        <a
+                                    href="http://www.coindesk.com/price"
+                        >
+                                    CoinDesk
+                        </a>
+            </div>
+</div>,
+          <div
+            className="footer"
+/>,
+        ],
+        "className": "main",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Cash To Bitcoin
+</h1>,
+              <i
+                className="fab fa-bitcoin"
+/>,
+              <div
+                className="header-triangle-1"
+/>,
+              <div
+                className="header-triangle-2"
+/>,
+            ],
+            "className": "header",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Cash To Bitcoin",
+              },
+              "ref": null,
+              "rendered": "Cash To Bitcoin",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fab fa-bitcoin",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "header-triangle-1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "header-triangle-2",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className=" main-box-1"
+/>,
+              <DollarInput
+                dollars=""
+                handleChange={[Function]}
+/>,
+              <Bitcoin
+                dollars=""
+                exchangeRate=""
+/>,
+              <div
+                className=" main-box-2"
+/>,
+              <div
+                className=" main-box-3"
+/>,
+              <div
+                className=" main-box-4"
+/>,
+              <div
+                className=" main-box-5"
+/>,
+              <div
+                className=" main-box-6"
+/>,
+              <div
+                className="credits"
+>
+                Powered by 
+                <a
+                                href="http://www.coindesk.com/price"
+                >
+                                CoinDesk
+                </a>
+</div>,
+            ],
+            "className": "app",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": " main-box-1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "dollars": "",
+                "handleChange": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "dollars": "",
+                "exchangeRate": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": " main-box-2",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": " main-box-3",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": " main-box-4",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": " main-box-5",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": " main-box-6",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Powered by ",
+                  <a
+                    href="http://www.coindesk.com/price"
+>
+                    CoinDesk
+</a>,
+                ],
+                "className": "credits",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Powered by ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "CoinDesk",
+                    "href": "http://www.coindesk.com/price",
+                  },
+                  "ref": null,
+                  "rendered": "CoinDesk",
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "footer",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

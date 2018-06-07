@@ -1,0 +1,271 @@
+:root {
+  --light-blue: #a0b5c6;
+  --light-green: rgba(196, 282, 168, 0.99);
+  --dark-green: rgba(196, 282, 168, 0.89);
+  --dark-blue: rgba(90, 130, 151, 0.95);
+  --background: #dee2e5;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100%;
+  z-index: 9;
+  color: var(--light-green);
+}
+
+.main {
+  background: linear-gradient(to right, #e9edf1, var(--background));
+  width: 565px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.app {
+  background: url("./images/white3.jpg") no-repeat;
+  background-position: -25px -60px;
+  background-size: cover;
+
+  /*background-color: var(--background);*/
+
+  position: relative;
+
+  width: 565px;
+  height: 550px;
+  position: relative;
+  margin: auto;
+
+  text-align: center;
+}
+
+.header {
+  background: var(--dark-blue);
+  height: 80px;
+  width: 565px;
+  margin: auto;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+
+.header-triangle-1 {
+  position: absolute;
+  right: -180px;
+  top: -100px;
+  border-left: 180px solid transparent;
+  border-right: 180px solid transparent;
+
+  border-bottom: 180px solid var(--dark-green);
+}
+
+.header-triangle-2 {
+  position: absolute;
+  top: 0;
+  left: -280px;
+  left: 305px;
+  border-left: 180px solid transparent;
+  border-right: 180px solid transparent;
+
+  border-top: 180px solid var(--dark-green);
+  border-bottom: 180px solid var(--dark-green);
+}
+
+.header h1 {
+  text-align: center;
+  margin-right: 240px;
+  color: #f6f7f9;
+  font-family: "Righteous", cursive;
+}
+
+.fa-bitcoin {
+  font-size: 40px;
+  position: absolute;
+  color: white;
+  top: 20px;
+  left: 480px;
+  z-index: 8;
+}
+
+.main-box-1 {
+  height: 250px;
+  width: 0px;
+
+  z-index: 1;
+  font-weight: 600;
+  line-height: 250px;
+  text-align: center;
+  font-size: 0px;
+  position: relative;
+}
+.main-box-1::after {
+  content: "";
+  z-index: -1;
+
+  position: absolute;
+
+  width: 0;
+  height: 0;
+
+  border-top: 275px solid transparent;
+  border-bottom: 275px solid transparent;
+
+  border-left: 275px solid var(--light-blue);
+}
+
+.main-box-2 {
+  content: "";
+  z-index: ;
+  position: absolute;
+  bottom: -46px;
+  right: 0px;
+
+  height: 0;
+  width: 0;
+  border-left: 180px solid transparent;
+  border-right: 180px solid transparent;
+
+  border-bottom: 180px solid var(--light-blue);
+}
+
+.main-box-3 {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-left: 180px solid transparent;
+
+  border-top: 180px solid var(--light-blue);
+}
+
+.main-box-4 {
+  content: "";
+  position: absolute;
+  right: -219px;
+  bottom: -334px;
+  z-index: 10;
+  border-left: 289px solid transparent;
+  border-right: 289px solid transparent;
+
+  border-top: 289px solid var(--light-blue);
+}
+
+.main-box-5 {
+  content: "";
+  position: absolute;
+  bottom: -260px;
+
+  border-right: 220px solid transparent;
+
+  border-bottom: 220px solid var(--dark-blue);
+}
+
+.main-box-6 {
+  /*content: "";
+  position: absolute;
+  bottom: -246px;
+  right: -20px;
+
+  border-left: 220px solid transparent;
+
+  border-bottom: 220px solid var(--light-blue);*/
+}
+
+.dollar-input {
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+}
+
+.dollars {
+  width: 150px;
+  position: absolute;
+  transform: rotate(45deg);
+  color: var(--light-blue);
+  top: -140px;
+  left: 64px;
+}
+
+.dollar-input input {
+  height: 45px;
+  width: 180px;
+  font-size: 40px;
+  background: transparent;
+  text-align: center;
+  color: var(--light-green);
+  border: 0px solid var(--light-green);
+}
+
+.dollar-input input:focus {
+  outline: none;
+}
+
+.dollar-input input::placeholder {
+  color: var(--light-green);
+  text-align: center;
+}
+
+.rate {
+  z-index: 11;
+  position: absolute;
+  bottom: -110px;
+  font-size: 40px;
+  left: 310px;
+}
+
+.exchange-rate-label {
+  z-index: 5;
+  position: absolute;
+
+  left: 465px;
+  top: 465px;
+  transform: rotate(45deg);
+  color: var(--light-blue);
+}
+.bitcoin-value-label {
+  z-index: 5;
+  position: absolute;
+  left: 450px;
+  top: 40px;
+  transform: rotate(45deg);
+  color: rgba(245, 245, 245, 0.99);
+}
+
+.bitcoin-value {
+  z-index: 5;
+  position: absolute;
+  top: 190px;
+  left: 354px;
+  color: var(--light-blue);
+}
+
+.footer {
+  height: 260px;
+  background: linear-gradient(to right, #e9edf1, var(--background));
+  width: 565px;
+  margin: auto;
+  text-align: center;
+}
+
+.credits {
+  position: absolute;
+  bottom: -180px;
+  left: -5px;
+  z-index: 11;
+  transform: rotate(45deg);
+  font-size: 20px;
+}
+
+.credits a {
+  color: white;
+  text-decoration: none;
+}
+.footer-triangle-1 {
+  content: "";
+  position: absolute;
+  bottom: calc(0% - 153px);
+
+  border-right: 220px solid transparent;
+
+  border-bottom: 220px solid var(--light-blue);
+}
